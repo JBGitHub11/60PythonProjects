@@ -34,6 +34,6 @@ To run any project, clone the repository and navigate to the project's directory
 ```bash
 git clone https://github.com/JBGitHub11/60PythonProjects.git
 
-cd <project-directory>
+cd 60PythonProjects
 
 python app.py
