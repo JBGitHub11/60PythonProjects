@@ -18,6 +18,12 @@ This repository contains a collection of mini projects written in Python.
 12. [Random Password Generator](./12%20-%20Random%20Password%20Generator)
 13. [Basic Chatbot](./13%20-%20Basic%20Chatbot)
 14. [Image Downloader](./14%20-%20Image%20Downloader)
+15. [Basic Data Visualization](./15%20-%20Basic%20Data%20Visualization)
+16. [Flashcard Quiz Game](./16%20-%20Flashcard%20Quiz%20Game)
+17. [URL Shortener](./17%20-%20URL%20Shortener)
+18. [Rock Paper Scissors](./18%20-%20Rock%20Paper%20Scissors)
+19. [Alarm Clock](./19%20-%20Alarm%20Clock)
+20. [Guess the Word Game](./20%20-%20Guess%20the%20Word%20Game)
 
 Each project has its own directory and can be run independently.
 
@@ -26,6 +32,8 @@ Each project has its own directory and can be run independently.
 To run any project, clone the repository and navigate to the project's directory, then run the `app.py` file.
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/JBGitHub11/60PythonProjects.git
+
 cd <project-directory>
+
 python app.py
