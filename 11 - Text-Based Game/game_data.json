@@ -1,0 +1,68 @@
+{
+    "rooms": {
+        "start": {
+            "description": "You wake up in a dark room. There is a door to the north and a door to the east.",
+            "choices": {
+                "north": "forest",
+                "east": "cave"
+            }
+        },
+        "forest": {
+            "description": "You enter a dense forest. You see a path leading north and another leading east.",
+            "choices": {
+                "north": "village",
+                "east": "mountain"
+            }
+        },
+        "cave": {
+            "description": "You enter a dimly lit cave. There is a tunnel leading further into the cave to the north, and a passage leading east.",
+            "choices": {
+                "north": "dragon_lair",
+                "east": "treasure_room"
+            }
+        },
+        "village": {
+            "description": "You arrive at a small village. The villagers seem friendly. You can rest here or continue your journey.",
+            "choices": {
+                "rest": "game_over",
+                "continue": "mountain"
+            }
+        },
+        "mountain": {
+            "description": "You climb up a steep mountain. At the summit, you find a old wizard's tower.",
+            "choices": {
+                "enter": "wizard_tower"
+            }
+        },
+        "dragon_lair": {
+            "description": "You enter the dragon's lair. The dragon is guarding a pile of gold and treasure.",
+            "choices": {
+                "fight": "game_over",
+                "steal": "game_over",
+                "run": "cave"
+            }
+        },
+        "treasure_room": {
+            "description": "You find a room filled with treasure chests!",
+            "choices": {
+                "take": "game_win"
+            }
+        },
+        "wizard_tower": {
+            "description": "You enter the wizard's tower. The wizard greets you and offers you a powerful magic item.",
+            "choices": {
+                "accept": "game_win",
+                "decline": "game_over"
+            }
+        }
+    },
+    "game_states": {
+        "game_over": {
+            "description": "Game Over!"
+        },
+        "game_win": {
+            "description": "You win!"
+        }
+    },
+    "start_room": "start"
+}
